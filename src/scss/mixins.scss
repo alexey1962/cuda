@@ -1,0 +1,10 @@
+$browser-context: 16; // Default
+$rem-base: 16;
+
+@function em($pixels, $context: $browser-context) {
+    @return #{calc($pixels/$context)}em;
+}
+
+@function rem($pixels, $context: $rem-base) {
+    @return #{calc($pixels/$context)}rem;
+}
