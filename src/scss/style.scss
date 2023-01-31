@@ -57,6 +57,37 @@ ul {
     }
 }
 
+.top {
+    text-align: center;
+    padding-bottom: rem(70);
+
+    &__title {
+        font-size: rem(40);
+        font-weight: 700;
+        padding-bottom: rem(45);
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: rem(90);
+            height: rem(4);
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            transform: translateY(500%);
+        }
+    }
+
+    &__text { 
+      font-size: rem(18);
+      line-height: math.div(26, 18);
+      padding: 0 rem(250);
+    }
+}
+
 @if($responsiveType==1) {
     [class*="__container"] {
         @if($maxWidthContainer>0) {
@@ -490,4 +521,6 @@ template {
     display: none;
 }
 
-@import 'header'
+@import './blocks/header';
+@import './blocks/service';
+@import './blocks/team';

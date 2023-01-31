@@ -1,0 +1,51 @@
+.service {
+  background-color: #17c2a4;
+  padding: rem(120) 0;
+  color: #fff;
+
+  &__bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+}
+
+.service-top {
+
+  &__title {
+    &::after {
+      background-color: #14a58c;
+    }
+  }
+}
+
+.service-bottom {
+
+  &__item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    text-align: center;
+  }
+}
+
+.bottom-item {
+
+  &__image {
+    max-height: rem(120);
+    margin-bottom: rem(70);
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: rem(24);
+    font-weight: 700;
+    margin-bottom: rem(20);
+  }
+
+  &__text {
+    padding: 0 rem(36);
+    line-height: math.div(24, 16);
+    font-weight: 300;
+  }
+}

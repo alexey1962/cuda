@@ -1,0 +1,24 @@
+.team {
+  background-color: #e7f1f8;
+  padding: rem(120) 0;
+}
+
+.container {}
+
+.team-top {
+
+  &__title {
+    &::after {
+      background-color: #c8d9e5;
+    }
+  }
+
+  &__text {}
+}
+
+.top {
+
+  &__title {}
+
+  &__text {}
+}
