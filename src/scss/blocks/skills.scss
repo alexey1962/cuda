@@ -1,0 +1,34 @@
+.skills {
+  padding: rem(115) 0;
+}
+
+.skills-top {
+  padding-bottom: rem(85);
+  &__title {
+    &::after {
+      background-color: #dfe8ed;
+    }
+  }
+}
+
+.top {
+
+  &__title {}
+
+  &__text {}
+}
+
+.skills-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  text-align: center;
+  &__item {}
+}
+
+.item-skills-bottom {
+
+  &__percent {}
+
+  &__subtitle {}
+}

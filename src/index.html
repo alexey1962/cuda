@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang='en'>
 @@include('./files/html/head.html', {
-    'title': 'Главная'
+'title': 'Главная'
 })
+
 <body>
-    @@include('./files/html/header.html')
-    <main>
-        @@include('./files/html/service.html')
-        @@include('./files/html/team.html')
-    </main>
-    @@include('./files/html/footer.html')
-    <script src="js/app.min.js"></script>
+  @@include('./files/html/header.html')
+  <main>
+    @@include('./files/html/service.html')
+    @@include('./files/html/team.html')
+    <section class="skills">
+      <div class="container">
+        <div class="skills-top top">
+          <div class="skills-top__title top__title">WE GOT SKILLS!</div>
+          <div class="skills-top__text top__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+        <div class="skills-bottom">
+          <div class="skills-bottom__item item-skills-bottom">
+            <div class="item-skills-bottom__percent" data-percent="90"></div>
+            <div class="item-skills-bottom__subtitle">Web Design</div>
+          </div>
+          <div class="skills-bottom__item item-skills-bottom">
+            <div class="item-skills-bottom__percent" data-percent="75"></div>
+            <div class="item-skills-bottom__subtitle">HTML / CSS</div>
+          </div>
+          <div class="skills-bottom__item item-skills-bottom">
+            <div class="item-skills-bottom__percent" data-percent="70"></div>
+            <div class="item-skills-bottom__subtitle">GRAPHIC DESIGN</div>
+          </div>
+          <div class="skills-bottom__item item-skills-bottom">
+            <div class="item-skills-bottom__percent" data-percent="85"></div>
+            <div class="item-skills-bottom__subtitle">UI / UX</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+  </main>
+  @@include('./files/html/footer.html')
+  <script src="js/app.min.js"></script>
 </body>
+
 </html>
