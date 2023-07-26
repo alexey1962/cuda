@@ -1,0 +1,66 @@
+.portfolio {
+  background-color: #ffdd99;
+  padding: 120px 0 110px;
+}
+
+.portfolio-top {
+
+  &__title {
+    &::after {
+      background-color: #e5c37f;
+    }
+  }
+
+  &__text {}
+}
+
+.portfolio-tabs {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  &__tab {
+    cursor: pointer;
+    background-color: #ebc985;
+    width: 84px;
+    height: 38px;
+    border-radius: 5px;
+    &.mixitup-control-active {
+      background-color: #fff;
+    }
+  }
+}
+
+.portfolio-content {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 20px;
+    text-align: center;
+  }
+}
+
+.content-inner {
+
+  &__item {}
+
+  &__img {}
+
+  &__descr {
+    margin-top: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
+
+.portfolio-button {
+  margin-top: 80px;
+  background-color: #17c2a4;
+  border-bottom: 4px solid #14a58c;
+  color: #fff;
+}

@@ -50,16 +50,7 @@
     }
 
     &__button {
-        cursor: pointer;
-        display: inline-block;
-        background-color: #eb7d4b;
-        font-weight: 600;
-        font-size: rem(18);
-        width: rem(135);
-        line-height: math.div(26, 18);
-        padding: rem(25) rem(80);
-        border-radius: rem(10);
-        text-transform: uppercase;
-        border-bottom: 4px solid #c86a40;
+      background-color: #eb7d4b;
+      border-bottom: 4px solid #c86a40;
     }
 }

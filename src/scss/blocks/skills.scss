@@ -23,12 +23,24 @@
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   text-align: center;
-  &__item {}
+  &__item {
+    text-align: center;
+  }
 }
 
 .item-skills-bottom {
 
-  &__percent {}
+  &__percent {
+    font-size: 50px;
+    border: 0.8125rem solid #dfe8ed;
+    padding: 35px;
+    border-radius: 50%;
+  }
 
-  &__subtitle {}
+  &__subtitle {
+    padding-top: 30px;
+    max-width: 180px;
+    font-size: 24px;
+    font-weight: 700;
+  }
 }
