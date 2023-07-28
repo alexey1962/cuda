@@ -1,0 +1,53 @@
+.about {
+  background-color: #d74680;
+  padding: 120px 0 125px;
+  &__top {
+    color: #fff;
+  }
+
+  &__top-title {
+    &::after {
+      background-color: #b73c6d;
+    }
+  }
+
+  &__top-text {
+    color: #fff;
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    row-gap: 140px;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item-img {
+    margin-right: 45px;
+  }
+
+  &__item-content {}
+
+  &__item-text {
+    font-style: italic;
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+
+  &__item-name {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  &__item-subtitle {
+    color: #ffdd99;
+  }
+}

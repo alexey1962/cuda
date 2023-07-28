@@ -1,0 +1,20 @@
+.footer {
+  background-color: #344b8e;
+  border-top: 1px solid gray;
+  padding: 50px 0 40px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+  }
+
+  &__item {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    &:hover {
+      color: #30bae7;
+    }
+  }
+}

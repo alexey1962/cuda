@@ -7,4 +7,5 @@ import mixitup from 'mixitup';
 
 const swiper = new Swiper();
 
-const mixer = mixitup('.portfolio-content');
+const mixer = mixitup(".portfolio-content");
+mixer.filter(".all");
